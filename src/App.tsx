@@ -1,9 +1,6 @@
 import React from "react";
+import { Home } from "./components/Home/Home";
 
 export function App() {
-  return (
-    <div>
-      <h1>streaks.wtf</h1>
-    </div>
-  );
+  return <Home />;
 }

@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  text-transform: lowercase;
+  font-size: 3em;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: 700; /* bold */
+  font-size: 1.3em;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: 900; /* black */
+  font-size: 1em;
+}
+
+.current-module > h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.current-module {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+}
